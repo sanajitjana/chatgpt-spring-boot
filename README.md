@@ -21,7 +21,7 @@ To get started with integrating ChatGPT into your Spring Boot application, follo
 ## Usage
 Here's a basic example of how to use the ChatGPT integration within your Spring Boot application:
 
-\```java
+```java
 // Instantiate ChatGPT client
 ChatGPTClient chatGPTClient = new ChatGPTClient("YOUR_API_KEY");
 
@@ -31,7 +31,7 @@ String response = chatGPTClient.sendMessage(userMessage);
 
 // Process and display the response
 System.out.println("ChatGPT: " + response);
-\```
+```
 
 For detailed usage instructions and API documentation, refer to the [Documentation](#documentation) section.
 
